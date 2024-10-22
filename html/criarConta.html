@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TargetFit</title>
+    <link rel="stylesheet" href="../styles/login.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <div class="div-logo">
+        <div class="logo-contain">
+            <img class="logo-img" src="../images/logo.png" alt="Logo TargetFit">
+            <h1 class="logo-titulo">Target<span>Fit</span></h1>
+        </div>
+    </div>
+
+    <div class="div-login">
+        <div class="login-contain">
+            <form class="login-form" id="registerForm">
+                <img class="login__form-img-none" src="../images/logo.png" alt="Logo">
+                <h1 class="logo-titulo login__form-titulo-none">Target<span>Fit</span></h1>
+                <h2 class="login-titulo">Login</h2>
+                <div class="login-div">
+                    <div class="login__div-input">
+                        <ion-icon class="login-icon" name="person-outline"></ion-icon>
+                        <input class="login-input email" id="registerUsername" type="text" name="text" placeholder="Usuário" required>
+                    </div>
+                    <div class="login__div-input">
+                        <ion-icon class="login-icon icon-senha" name="key-outline"></ion-icon>
+                        <input class="login-input senha" id="registerPassword" type="password" name="password" placeholder="Senha" required>
+                        <ion-icon class="login__toggle-password" name="eye-off-outline" id="togglePassword"></ion-icon>
+                    </div>
+                </div>
+                
+                <button type="submit" class="login__btn-acessar" id="reisterButton">Registrar</button>
+                <ul class="login__lista-options">
+                    <li class="lista__options-itens">
+                        <a id="lista__options-itens-tem-conta" href="#">Já tem uma conta?</a>
+                    </li>
+                </ul>
+            </form>
+
+            <ul>
+                
+            </ul>
+        </div>
+    </div>
+
+
+    <script src="../js/temConta.js"></script>
+</body>
+</html>

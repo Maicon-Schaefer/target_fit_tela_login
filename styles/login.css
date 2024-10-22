@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    font-family: "Montserrat", sans-serif;;
+    overflow-x: hidden; 
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/*Logo*/
+
+.div-logo{
+    width: 50%;
+    height: 100vh;
+    background-color: #00ADB5;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-contain{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.logo-img{
+    width: 400px;
+}
+
+.logo-titulo{
+    font-size: 6em;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+    color: #222831;
+}
+
+.logo-titulo span{
+    color: #EEEEEE;
+}
+
+/*Login*/
+
+.div-login{
+    width: 50%;
+    height: 100vh;
+    background-color: #222831;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.login-contain{
+    background-color: #00ADB5;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login__form-img-none{
+    visibility: hidden;
+    display: none;
+}
+
+.login__form-titulo-none{
+    visibility: hidden;
+    display: none;
+}
+
+.login-titulo{
+    font-size: 5em;
+    color: #eee ;
+}
+
+.login-div{
+    margin-top: 50px;
+}
+
+.login__div-input{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.login-icon{
+    font-size: 1.5em;
+    color: #EEEEEE;
+}
+
+.icon-senha{
+    margin-left: 15px;
+}
+
+.login-input{
+    padding: 10px 0px 10px 10px;
+    width: 250px;
+    background-color: #00ADB5;
+    border: none;
+    color: #393E46;
+    font-size: 1em;
+}
+
+.login__toggle-password{
+    color: #EEEEEE;
+    cursor:pointer;
+}
+
+.login__btn-acessar{
+    margin: 50px 0px 10px;
+    background-color: #EEEEEE;
+    padding: 10px 10px;
+    width: 80%;
+    color: #222831;
+    font-size: 1.4em;
+    border-radius: 10px;
+    font-weight: 500;
+    border: none;
+}
+
+.login__btn-acessar:hover{
+    background-color: #00ADB5;
+    border: 1px solid #EEEEEE;
+    padding: 9px 9px;
+    color: #EEEEEE;
+}
+
+.login__lista-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.lista__options-itens{
+    margin: 10px 20px;
+}
+
+.lista__options-itens a{
+    color: #222831;
+}
+
+.lista__options-itens a:hover{
+    border-bottom: 1px solid #EEEEEE;
+}
+
+@media screen  and (max-width: 960px){
+    body{
+        display: block;
+        background-color: #222831;
+    }
+
+    .login__form-img-none{
+        visibility: visible;
+        display: block;
+        width: 150px;
+        margin-bottom: 30px;
+    }
+
+    .div-logo{
+        display: none;
+    }
+
+    .div-login{
+        width: 100%;
+        font-size: 1em;
+    }
+
+    .login-contain{
+        width: 600px;
+    }
+
+    .login-form{
+
+        width: 98%; /* Ajuste para caber na tela menor */
+    }
+
+    .login__form-titulo-none{
+        visibility: visible;
+        display: block;
+    }
+}
+
+@media screen  and (max-width: 480px){
+    .login__form-img-none{
+        visibility: visible;
+        display: block;
+        width: 150px;
+        margin-bottom: 30px;
+    }
+
+    .div-login{
+        font-size: 0.6em;
+    }
+
+    .login-contain{
+        width: 400px;
+    }
+
+    .login__form-titulo-none{
+        visibility: visible;
+        display: block;
+    }
+
+    .login-form {
+        width: 98%; /* Ajuste para caber na tela menor */
+    }
+
+    .login__btn-acessar{
+        width: 100%;
+        font-size: 2em;
+    }
+
+    .lista__options-itens a{
+        font-size: 2em;
+    }
+
+    .login__div-input{
+        font-size: 2em;
+    }
+}
