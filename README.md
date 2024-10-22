@@ -1,6 +1,6 @@
 # Tela de Login com Cadastro de Usuários - Armazenamento Local
 
-Este é um projeto simples de autenticação de usuários que permite cadastro e login utilizando o `localStorage` do navegador. O objetivo é criar uma interface funcional para gerenciar usuários, focando no aprendizado de manipulação de dados no front-end.
+Este é um projeto simples e responsivo de autenticação de usuários que permite cadastro e login utilizando o `localStorage` do navegador. O objetivo é criar uma interface funcional para gerenciar usuários, focando no aprendizado de manipulação de dados no front-end.
 
 ## 🚀 Tecnologias Utilizadas
 - **HTML5 e CSS3**: Estruturação e estilização da interface.
